@@ -1,0 +1,22 @@
+
+<!-- <div align="center">
+    <h1>login</h1>
+</div> -->
+<form action="/books" method="get">
+    <input type="text" name="author" placeholder="Rechercher un livre...">
+    <button type="submit">Rechercher</button>
+</form>
+
+<!-- <form action="/login" method="post" align="center">
+    <input type="text" name="username" placeholder="Nom utilisateur">
+    <input type="password" name="motdepasse" placeholder="Mot de passe">
+    <button type="submit">Connexion</button>
+</form> -->
+
+<h2>Ajouter un nouveau livre</h2>
+        <form action="/add_book" method="post">
+            <input type="text" name="title" placeholder="Titre du livre" required>
+            <input type="text" name="author" placeholder="Auteur" required>
+            <input type="text" name="year" placeholder="Année" required>
+            <button type="submit">Ajouter</button>
+        </form>
