@@ -128,7 +128,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.10.6
 rsa==4.9
-scipy==1.9.0
+scipy==1.14.1
 seaborn==0.13.2
 segment-analytics-python==2.2.3
 Send2Trash==1.8.2
